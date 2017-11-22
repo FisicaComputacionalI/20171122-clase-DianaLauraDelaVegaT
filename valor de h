@@ -1,0 +1,34 @@
+/*  Diana Laura De La Vega Trinidad
+   Fisica Computacional
+   clase del 22-11-17
+   Funcion coseno */
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+
+    float x,c,h;
+
+cout<<"Evaluemos la funcion coseno en 0.15, entonces:"<<endl;
+cout<<"x=0.15\npor tanto: \ncos(x)= "<<endl;
+   x=0.15;
+   c = cos(x);
+   
+  cout<<c;
+ 
+cout<<" Calculemos h tal que cos(x+h) y cos(x+2h) sean diferentes."<<endl;
+cout<<"Como h es un numero pequeñito, entonces:"<<endl;
+
+    h=0.027;
+   
+    c = cos(x+h);
+    cout<<"cos(x+h)= "<<c<<endl;
+    c = cos(x+2*h);
+    cout<<"cos(x+2h)= "<<c<<endl;
+   
+ cout<<"Con h=0.027"<<endl;
+return 0;
+}
